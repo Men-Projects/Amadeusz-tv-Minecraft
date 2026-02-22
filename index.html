@@ -17,9 +17,16 @@
 <title>Amadeo Watch Tv Minecraft</title>
 </head>
 <body>
-   <a href="https://html-classic.itch.zone/html/16568437/index.html" id="_1">amadeuszgame</a>
-  <script>
-     document.getElementById("_1").click();
-  </script>
+   <iframe src="https://itch.io/embed-upload/16568437" id="sigma"></iframe>
+   <script>
+      function updateSize() {
+         sigma.style.width = window.innerWidth+"px";
+         sigma.style.height = window.innerHeigh+"px";
+  }
+
+  window.addEventListener("resize", updateSize);
+
+  updateSize();
+   </script>
 </body>
 </html>
